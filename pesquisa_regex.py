@@ -9,7 +9,7 @@ def receber_diretorio_atual():
 
 def extrair_arquivos_txt_diretorio(diretorio):  
     """
-    Extrai arquivos txt de um determinado diretório 
+    Extrai arquivos txt  de um determinado diretório 
         param
             diretorio: str - String contendo diretório
         return
@@ -90,7 +90,7 @@ arquivos_txt = extrair_arquivos_txt_diretorio(diretorio_atual)
 if not arquivos_txt:
     print("Não há arquivos txt no diretório atual.")
     sys.exit()
-    
+
 # Recebe conteúdo dos arquivos txt
 conteudos_txt = receber_conteudo_txt(diretorio_atual, arquivos_txt)
 
